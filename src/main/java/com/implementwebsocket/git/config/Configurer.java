@@ -15,7 +15,6 @@ public class Configurer implements WebSocketMessageBrokerConfigurer{
 		
 		registry.addEndpoint("/stomp-endpoint").withSockJS();
 		WebSocketMessageBrokerConfigurer.super.registerStompEndpoints(registry);
-		// Just adding a comment
 	}
 
 	@Override
